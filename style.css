@@ -1,0 +1,70 @@
+body, html { 
+    height: 100%; 
+    margin: 0; 
+}
+* {
+    font-family: cursive             
+}
+h1{
+    font-size: 40px;   
+    color: darkslateblue;             
+}
+.portfolio{
+    background-image: url("bg-6.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.header{
+    background-color: lightseagreen;
+    color: darkslateblue;
+    display: flex;
+    justify-content: center;
+}
+.projects{
+    background-color: darkcyan;
+    color: darkslateblue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.site-description{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: first baseline;
+}
+.footer{
+    background-color: lightcoral;
+    color: darkslateblue;
+    display:flex;
+    justify-content: center;
+}
+.links{
+    font-size: 30px;
+    color: darkslateblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    color: darkslateblue;
+}
+.certificate{
+    font-size: 30px;
+    color: darkslateblue;
+}
+.aboutme{
+    color: indianred;
+    font-size: 35px;
+}
+a:link{ 
+    color: darkmagenta; 
+}
+a:visited{
+     color: royalblue;
+}
